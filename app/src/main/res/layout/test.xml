@@ -2,6 +2,8 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:columnCount="3"
+    android:orientation="vertical"
     >
 
     <FrameLayout
@@ -118,6 +120,7 @@
                 android:drawableTop="@android:drawable/ic_menu_call"
                 />
 
+
             <Button
                 android:layout_columnWeight="1"
                 android:layout_gravity="bottom"
@@ -130,8 +133,8 @@
                 android:layout_columnWeight="1"
                 android:layout_gravity="bottom"
                 android:drawableBottom="@android:drawable/ic_media_play"
-                android:textAllCaps="false"
-                />
+                android:textAllCaps="false" />
+
 
         </GridLayout>
 
@@ -140,4 +143,3 @@
 
 
 </LinearLayout>
-
