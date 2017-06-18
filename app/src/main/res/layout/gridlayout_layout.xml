@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:columnCount="3"
+    android:orientation="horizontal"
+    android:background="@color/colorAccent"
+    >
+
+    <Button
+        android:text="some text"
+        android:textAllCaps="false"
+        android:layout_columnWeight="1"
+        android:layout_gravity="fill"
+        android:layout_width="0dp"
+        android:layout_height="115dp"
+        />
+
+    <Button
+        android:text="some text"
+        android:textAllCaps="false"
+        android:layout_columnWeight="1"
+        android:layout_gravity="fill"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        />
+    <Button
+        android:text="some text"
+        android:textAllCaps="false"
+        android:layout_columnWeight="1"
+        android:layout_gravity="fill"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        />
+    <Button
+        android:text="some text"
+        android:textAllCaps="false"
+        android:layout_columnWeight="1"
+        android:layout_gravity="fill"
+        android:layout_width="0dp"
+        android:layout_height="115dp"
+        />
+    <Button
+        android:text="some text"
+        android:textAllCaps="false"
+        android:layout_columnWeight="1"
+        android:layout_gravity="fill"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        />
+    <Button
+        android:text="some text"
+        android:textAllCaps="false"
+        android:layout_columnWeight="1"
+        android:layout_gravity="fill"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        />
+    <Button
+        android:text="some text"
+        android:textAllCaps="false"
+        android:layout_columnWeight="1"
+        android:layout_gravity="fill"
+        android:layout_width="0dp"
+        android:layout_height="115dp"
+        />
+    <Button
+        android:text="some text"
+        android:textAllCaps="false"
+        android:layout_columnWeight="1"
+        android:layout_gravity="fill"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        />
+    <Button
+        android:text="some text"
+        android:textAllCaps="false"
+        android:layout_columnWeight="1"
+        android:layout_gravity="fill"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        />
+    <Button
+        android:text="some text"
+        android:textAllCaps="false"
+        android:layout_columnWeight="1"
+        android:layout_gravity="fill"
+        android:layout_width="0dp"
+        android:layout_height="115dp"
+        />
+    <Button
+        android:text="some text"
+        android:textAllCaps="false"
+        android:layout_columnWeight="1"
+        android:layout_gravity="fill"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        />
+    <Button
+        android:text="some text"
+        android:textAllCaps="false"
+        android:layout_columnWeight="1"
+        android:layout_gravity="fill"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        />
+
+    <Button
+        android:text="some text"
+        android:textAllCaps="false"
+        android:layout_columnWeight="1"
+        android:layout_gravity="fill"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        />
+    <Button
+        android:text="some text"
+        android:textAllCaps="false"
+        android:layout_columnWeight="1"
+        android:layout_gravity="fill"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        />
+    <Button
+        android:text="some text"
+        android:textAllCaps="false"
+        android:layout_columnWeight="1"
+        android:layout_gravity="fill"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        />
+
+</GridLayout>
+

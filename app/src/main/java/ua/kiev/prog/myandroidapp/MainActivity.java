@@ -12,21 +12,21 @@ public class MainActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
+        setContentView(R.layout.gridlayout_layout);
 
-        TextView view = (TextView) findViewById(R.id.textView);
-        view.setText("123");
-
-        ViewGroup viewGroup = (ViewGroup) view.getParent();
-        viewGroup.addView(view);
-
-        TextView textView = new TextView(this);
-
-        RelativeLayout.LayoutParams layoutParams = new RelativeLayout.LayoutParams(RelativeLayout.LayoutParams.WRAP_CONTENT,
-                RelativeLayout.LayoutParams.WRAP_CONTENT);
-        layoutParams.topMargin = 100;
-        textView.setLayoutParams(layoutParams);
-
-        setContentView(textView);
+//        TextView view = (TextView) findViewById(R.id.textView);
+//        view.setText("123");
+//
+//        ViewGroup viewGroup = (ViewGroup) view.getParent();
+//        viewGroup.addView(view);
+//
+//        TextView textView = new TextView(this);
+//
+//        RelativeLayout.LayoutParams layoutParams = new RelativeLayout.LayoutParams(RelativeLayout.LayoutParams.WRAP_CONTENT,
+//                RelativeLayout.LayoutParams.WRAP_CONTENT);
+//        layoutParams.topMargin = 100;
+//        textView.setLayoutParams(layoutParams);
+//
+//        setContentView(textView);
     }
 }
