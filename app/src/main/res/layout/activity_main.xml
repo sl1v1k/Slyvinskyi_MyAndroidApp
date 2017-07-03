@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     >
@@ -9,131 +10,133 @@
         android:layout_height="match_parent"
         >
 
-        <GridLayout
+        <android.support.v7.widget.GridLayout
+            xmlns:app="http://schemas.android.com/apk/res-auto"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:orientation="horizontal"
-            android:columnCount="3"
+            app:orientation="horizontal"
+            app:columnCount="3"
             android:layout_marginBottom="50dp">
 
             <Button
-                android:text="some text"
+                android:text="@string/some_text"
                 android:textAllCaps="false"
-                android:layout_columnWeight="1"
-                android:layout_rowWeight="1"
+                app:layout_columnWeight="1"
+                app:layout_rowWeight="1"
                 />
 
             <Button
-                android:text="some text"
+                android:text="@string/some_text"
                 android:textAllCaps="false"
-                android:layout_columnWeight="1"
-                android:layout_rowWeight="1"
+                app:layout_columnWeight="1"
+                app:layout_rowWeight="1"
                 />
 
             <Button
-                android:text="some text"
+                android:text="@string/some_text"
                 android:textAllCaps="false"
-                android:layout_columnWeight="1"
-                android:layout_rowWeight="1"
+                app:layout_columnWeight="1"
+                app:layout_rowWeight="1"
                 />
 
             <Button
-                android:text="some text"
+                android:text="@string/some_text"
                 android:textAllCaps="false"
-                android:layout_columnWeight="1"
-                android:layout_rowWeight="1"
+                app:layout_columnWeight="1"
+                app:layout_rowWeight="1"
                 />
 
             <Button
-                android:text="some text"
+                android:text="@string/some_text"
                 android:textAllCaps="false"
-                android:layout_columnWeight="1"
-                android:layout_rowWeight="1"
+                app:layout_columnWeight="1"
+                app:layout_rowWeight="1"
                 />
 
             <Button
-                android:text="some text"
+                android:text="@string/some_text"
                 android:textAllCaps="false"
-                android:layout_columnWeight="1"
-                android:layout_rowWeight="1"
+                app:layout_columnWeight="1"
+                app:layout_rowWeight="1"
                 />
 
             <Button
-                android:text="some text"
+                android:text="@string/some_text"
                 android:textAllCaps="false"
-                android:layout_columnWeight="1"
-                android:layout_rowWeight="1"
+                app:layout_columnWeight="1"
+                app:layout_rowWeight="1"
                 />
 
             <Button
-                android:text="some text"
+                android:text="@string/some_text"
                 android:textAllCaps="false"
-                android:layout_columnWeight="1"
-                android:layout_rowWeight="1"
+                app:layout_columnWeight="1"
+                app:layout_rowWeight="1"
                 />
 
             <Button
-                android:text="some text"
+                android:text="@string/some_text"
                 android:textAllCaps="false"
-                android:layout_columnWeight="1"
-                android:layout_rowWeight="1"
+                app:layout_columnWeight="1"
+                app:layout_rowWeight="1"
                 />
 
             <Button
-                android:text="some text"
+                android:text="@string/some_text"
                 android:textAllCaps="false"
-                android:layout_columnWeight="1"
-                android:layout_rowWeight="1"
+                app:layout_columnWeight="1"
+                app:layout_rowWeight="1"
                 />
 
             <Button
-                android:text="some text"
+                android:text="@string/some_text"
                 android:textAllCaps="false"
-                android:layout_columnWeight="1"
-                android:layout_rowWeight="1"
+                app:layout_columnWeight="1"
+                app:layout_rowWeight="1"
                 />
 
             <Button
-                android:text="some text"
+                android:text="@string/some_text"
                 android:textAllCaps="false"
-                android:layout_columnWeight="1"
-                android:layout_rowWeight="1"
+                app:layout_columnWeight="1"
+                app:layout_rowWeight="1"
                 />
 
-        </GridLayout>
+        </android.support.v7.widget.GridLayout>
 
-        <GridLayout
+        <android.support.v7.widget.GridLayout
+            xmlns:app="http://schemas.android.com/apk/res-auto"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_gravity="bottom"
-            android:columnCount="3"
+            app:columnCount="3"
             android:background="@color/Black">
 
 
             <Button
-                android:layout_columnWeight="1"
-                android:layout_gravity="bottom"
+                app:layout_columnWeight="1"
+                app:layout_gravity="bottom"
                 android:layout_height="50dp"
                 android:textAllCaps="false"
                 android:drawableTop="@android:drawable/ic_menu_call"
                 />
 
             <Button
-                android:layout_columnWeight="1"
-                android:layout_gravity="bottom"
+                app:layout_columnWeight="1"
+                app:layout_gravity="bottom"
                 android:layout_height="50dp"
-                android:text="APP"
+                android:text="@string/APP"
                 />
 
             <Button
                 android:layout_height="50dp"
-                android:layout_columnWeight="1"
-                android:layout_gravity="bottom"
+                app:layout_columnWeight="1"
+                app:layout_gravity="bottom"
                 android:drawableBottom="@android:drawable/ic_media_play"
                 android:textAllCaps="false"
                 />
 
-        </GridLayout>
+        </android.support.v7.widget.GridLayout>
 
     </FrameLayout>
 
