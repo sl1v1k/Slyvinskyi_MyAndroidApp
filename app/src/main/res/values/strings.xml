@@ -1,5 +1,5 @@
 <resources>
     <string name="app_name">MyAndroidApp</string>
-    <string name="some_text">Some text</string>
-    <string name="APP">Some text</string>
+    <string name="some_text">some text</string>
+    <string name="APP">App</string>
 </resources>
