@@ -24,8 +24,6 @@ public class MainActivity extends AppCompatActivity {
         button1.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
                 Intent dialIntent = new Intent("android.intent.action.DIAL");
-
-                /** Starting the Dialer activity */
                 startActivity(dialIntent);
 
             }
